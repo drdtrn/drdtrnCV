@@ -1,0 +1,42 @@
+/********************TAG SELECTORS******************/
+body {
+  background-color: #96CEB4;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: #519259;
+  border-width: 5px;
+  width: 10%;
+}
+
+
+img:hover {
+  border-radius: 10%;
+  height: 300px;
+}
+
+
+h1 {
+  color: #35858B;
+}
+
+h3 {
+  color: #3E8E7E;
+}
+
+/*******************CLASS SELECTORS******************/
+/* You can use the same class naming more than once on your html tags but you cant use the same id naming on other tags */
+.profile_photo {
+  height: 300px;
+  border-radius: 100%;
+}
+.alternate_photo {
+  height: 150px;
+}
+
+/*******************ID SELECTORS******************/
+#heading {
+  color: grey;
+}
